@@ -72,7 +72,7 @@ def clear():
     print(logo)
 logo =f"""____________________
 AUTHOR    : ᴍᴜʜᴀᴍᴍᴀᴅ ꜰᴀɪꜱᴀʟ ꜱʜᴀʜᴢᴀᴅ
-FACEBOOK  : https://www.facebook.com/faisalshehzadaMa.kA/
+FACEBOOK  : ᴍᴜʜᴀᴍᴍᴀᴅ ꜰᴀɪꜱᴀʟ ꜱʜᴀʜᴢᴀᴅ
 WHATSAPP  : +92-3142108093
                                    [THE DEAD USER]
 ____________________"""

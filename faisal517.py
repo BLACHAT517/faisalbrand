@@ -70,8 +70,7 @@ twf = []
 def clear():
     os.system('clear')
     print(logo)
-logo =______
-
+logo =f"""____________________
 AUTHOR    : ᴍᴜʜᴀᴍᴍᴀᴅ ꜰᴀɪꜱᴀʟ ꜱʜᴀʜᴢᴀᴅ
 FACEBOOK  : https://www.facebook.com/faisalshehzadaMa.kA/
 WHATSAPP  : +92-3142108093

